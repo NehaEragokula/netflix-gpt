@@ -1,12 +1,8 @@
-import logo from "./logo.svg";
 import "./App.css";
+import Body from "./Components/Body";
 
 function App() {
-  return (
-    <div className="App">
-      <h1 className="text-green-500 font-2xl">Hello World!</h1>
-    </div>
-  );
+  return <Body />;
 }
 
 export default App;
